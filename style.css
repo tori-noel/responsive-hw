@@ -44,6 +44,7 @@ p {
 
 .primary-link {
   border-radius: 4px;
+  text-align: center;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
@@ -85,4 +86,10 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 390px) {
+  .btn {
+    max-width: 90px;
+  }
 }
